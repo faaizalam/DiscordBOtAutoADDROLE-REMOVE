@@ -2,8 +2,7 @@ require('dotenv').config();
 // const TOKEN = process.env.TOKEN;
 // const GUILD_ID = process.env.GUILD_ID;
 const ROLE_NAME = 'Member';
-const TOKEN = "MTE0NjA4ODAyMTk0MzM5MDI0OA.GHcK4o.Q_3TC4mbVtH48WslFBrUvFhiqies9tOd_6V_2E"
-const GUILD_ID = "1141724958897217608"
+
 
 const discordKickOut = async (req, client) => {
     try {
