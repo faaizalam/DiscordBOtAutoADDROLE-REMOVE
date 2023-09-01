@@ -1,6 +1,5 @@
 require('dotenv').config();
-const STRIPE_SECRET_KEY = "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"
-const stripe = require("stripe")(STRIPE_SECRET_KEY);
+
 
 const useravailiblitylimit = async (req, res) => {
     try {
